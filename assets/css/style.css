@@ -1,0 +1,253 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: helvetica, arial, sans-serif;
+}
+
+#main {
+
+}
+
+#header {
+    height: 50px;
+    background-color : #1d559f;
+    position: fixed;
+    right: 0;
+    top: 0;
+    left: 0;
+    border: 0;
+    text-align: center;
+    z-index: 1;
+}
+
+#nav li {
+    display: inline-block;
+}
+
+#nav li a {
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 24px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#nav li:hover a {
+    background-color: #c69c6d;
+}
+
+#slider {
+    margin-top: 50px;
+}
+
+#content {
+    background-color: white;
+}
+
+#content .content-section {
+    width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0 112px;
+}
+
+#content .section-heading {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    color: #008080;
+}
+
+#content .section-sub-heading {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+#content .about-text {
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 25px;
+    line-height: 1.6;
+}
+
+#content .schedule,
+#content .information {
+    margin-top: 25px;
+}
+
+#content .member-mentor {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+#content .content-member {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0;
+}
+
+#content .member-list {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+#content .mentor {
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-size: 35px;
+    color:#b43384;
+    margin-bottom: 25px;
+}
+
+#content .alpha {
+    color: #1d559f;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+#content .member-item {
+    float: left;
+    width: 20%;
+    text-align: center;
+}
+
+#content .member-name {
+    font-size: 20px;
+}
+
+#content .mentor-name {
+    font-size: 25px;
+}
+
+#content .mentor-name,
+#content .member-name {
+    margin-bottom: 15px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+#content .mentor-name:hover {
+    color: red;
+    opacity: 0.8;
+}
+
+
+#content .member-name:hover{
+    color: #fdb913;
+    opacity: 0.8;
+}
+
+#content .member-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+#content .mentor-img {
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+#footer {
+    background-color: #1d559f;
+    margin-top: 64px;
+}
+
+#footer .container {
+    width: 100%;
+    overflow: hidden;
+}
+
+#footer .open-ui {
+    width: 50%;
+    height: 350px;
+    float: left;
+    background-color: #1d559f;
+    padding: 40px 35px;
+}
+
+#footer .ti-location-pin {
+    display: block;
+    color: white;
+    font-size: 17px;
+    padding: 15px 25px;
+}
+
+#footer .ti-location-pin a:hover {
+    color: #fdb913;
+    opacity: 0.6;
+}
+
+#footer .open-ui a {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+#footer .it03 {
+    width: 50%;
+    height: 350px;
+    float: right;
+    background-color : #1d559f;
+    padding: 20px 35px;
+}
+
+#footer .it03 img:hover,
+#footer .open-ui img:hover {
+    opacity: 0.7;
+}
+
+#footer .powered {
+    text-align: center;
+    background-color:white;
+    padding-top: 5px;
+}
+
+#footer .socials-list {
+    font-size: 24px;
+}
+
+#footer .socials-list a {
+    text-decoration: none;
+}
+
+#footer .socials-list a:hover {
+    opacity: 0.4;
+}
+
+#footer .ti-facebook {
+    background-color:blue;
+    color: white;
+    border-radius: 50%;
+}
+
+#footer .ti-face-smile {
+    color: black;
+}
+
+#footer .ti-instagram {
+    color: #b43384;
+    border-radius: 5px;
+}
+
+#footer .end {
+    padding-top: 5px;
+    font-size: 17px;
+}
+
+
+
