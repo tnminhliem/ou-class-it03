@@ -218,7 +218,6 @@ html {
 }
 
 #footer .socials-list {
-    display: inline-flex;
     font-size: 24px;
 }
 
@@ -237,7 +236,6 @@ html {
 }
 
 #footer .ti-face-smile {
-    padding: 0 6px;
     color: black;
 }
 
