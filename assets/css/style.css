@@ -43,10 +43,7 @@ html {
 }
 
 #slider {
-    position: relative;
     margin-top: 50px;
-    padding-top: 50%;
-    background: url ('../slider/slider1.png') top center / cover no-repeat;
 }
 
 #content {
